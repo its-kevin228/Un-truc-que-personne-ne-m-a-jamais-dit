@@ -1,7 +1,7 @@
-name: hello_world
-description: "A new Flutter project."
+name: un_truc_que_personne_ne_ma_jamais_dit
+description: "Une application qui affiche des phrases inspirantes et honnêtes."
 publish_to: 'none'
-version: 0.1.0
+version: 1.0.0
 
 environment:
   sdk: ^3.10.4
@@ -9,6 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^1.2.0
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+  share_plus: ^10.1.4
 
 dev_dependencies:
   flutter_test:
